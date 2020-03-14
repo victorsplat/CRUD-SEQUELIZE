@@ -1,0 +1,43 @@
+@import url("banner-principal.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/**Boot CSS**/
+
+img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.center {
+    max-width: 1280px;
+    padding: 0 25;
+    margin: 0 auto;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 2%;
+}
+
+.w33 {
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,30 @@
+h1.title {
+    font-weight: 400;
+    font-size: 28pt;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.user-informations {
+    display: table;
+    /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+.user-informations ul {
+    color: white;
+    font-size: 18pt;
+    margin-top: 40px;
+    list-style: none;
+    background-color: #5555DD;
+    max-width: 600px;
+    padding: 30px 10px;
+    border-radius: 8px;
+    display: block;
+    -webkit-box-shadow: 4px 3px 16px -2px rgba(0, 0, 0, 0.77);
+    box-shadow: 4px 3px 16px -2px rgba(0, 0, 0, 0.77);
+}
+
+.user-informations ul li {
+    margin: 8px 0;
+}

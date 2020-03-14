@@ -1,0 +1,17 @@
+doctype html
+html( lang="pt-br" )
+    head
+        title= pageName
+        meta( charset='utf-8')
+        include includes/config.pug
+        link( rel="stylesheet" href="../css/boot.css" id="boot-styles-link" )
+        link( rel="stylesheet" href="../css/form.css" id="form-styles-link" )
+
+    body
+        .main-container
+            form(action="/account/" method="post")
+                h1 Register :)
+                input(type="text" name="name" placeholder="Username:" required)
+                input(type="email" name="email" placeholder="Email:" required)
+                input(type="password" name="password" placeholder="********" required)
+                input(type="submit" value="Register")

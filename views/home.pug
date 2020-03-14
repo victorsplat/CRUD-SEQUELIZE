@@ -1,0 +1,20 @@
+doctype html
+html( lang="pt-br" )
+  head
+    title= pageName
+    meta( charset='utf-8')
+    include includes/config.pug
+    link( rel="stylesheet" href="css/home.css" id="main-styles-link" )
+
+
+  body
+    div.home-containerMain
+      h1.homeTitle Escolha A Função Desejada:
+      div.pageChoose
+        form(action="authenticate/login" method="post")
+          button(type="submit") Login
+        form(action="authenticate/register" method="post")
+          button(type="submit") Register
+
+
+
