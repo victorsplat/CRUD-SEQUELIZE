@@ -1,22 +1,52 @@
 .main-container form h1 {
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
-    margin: 10px 0;
+    margin: 28px 0;
+    font-size: 28pt;
+}
+
+.main-container form {
+    text-align: center;
+    width: 100%;
 }
 
 .main-container form input {
     display: block;
     width: 25%;
-    height: 36px;
-    margin: 18px auto;
+    margin: 8px auto;
 }
 
 .main-container form input:not([type="submit"]) {
     border-radius: 4px;
+    padding: 12px;
+}
+
+.main-container form input[type="submit"] {
+    border: none;
+    background: #404040;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
 }
 
 .error h4 {
+    margin-top: 6px;
     color: #DD1100;
     text-align: center;
     font-weight: 200;
+}
+
+.main-container form input[type="submit"]:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: #EEE;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    border: 1px solid #777;
+    transition: all 0.3s ease 0s;
 }

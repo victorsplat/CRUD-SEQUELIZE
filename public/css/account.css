@@ -12,17 +12,21 @@ h1.title {
 }
 
 .user-informations ul {
-    color: white;
     font-size: 18pt;
     margin-top: 40px;
     list-style: none;
-    background-color: #5555DD;
     max-width: 600px;
     padding: 30px 10px;
     border-radius: 8px;
     display: block;
-    -webkit-box-shadow: 4px 3px 16px -2px rgba(0, 0, 0, 0.77);
-    box-shadow: 4px 3px 16px -2px rgba(0, 0, 0, 0.77);
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: #DDD;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    border: 1px solid #777;
+    transition: all 0.3s ease 0s;
 }
 
 .user-informations ul li {

@@ -1,8 +1,7 @@
 const express = require('express');
 
 const app = express();
-const { User } = require('./app/models');
-const router = require('./app/routes/routes')
+const router = require('./app/routes/routes');
 const bodyParser = require('body-parser');
 
 //use middleware to serve static files
